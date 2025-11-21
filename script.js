@@ -42,6 +42,7 @@ function filtrarDados() {
 
     });
 
+   
     renderizarCards(dadosFiltrados);
 }
 searchInput.addEventListener('input', filtrarDados);
